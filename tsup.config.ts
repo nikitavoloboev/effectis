@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsup"
 
 export default defineConfig({
   entry: ["src/bin.ts"],
@@ -6,9 +6,8 @@ export default defineConfig({
   publicDir: true,
   external: ["@parcel/watcher"],
 
-
   minify: false,
   sourcemap: true,
   splitting: false,
   treeshake: false,
-});
+})
